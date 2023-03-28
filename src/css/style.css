@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+.principal{
+    position: relative;
+    background-color: var(--azul-mais-escuro);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.principal .cartao {
+    background-color: var(--azul-escuro);
+    height: 415px;
+    width: 410px;
+    border-radius: 30px;
+    background-image: radial-gradient( circle 343px at 50% 0%,  hsl(213, 19%, 18%) 3%, hsl(215, 26%, 13%) 80% );
+}
+
+.cartao .nota {
+    color: var(--cinza-claro);
+    display: none;
+    margin: 30px;
+    flex-direction: column;
+}
+
+.nota .img-container{
+    background-color: var(--azul-escuro);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+.nota img{
+    width: 18px;
+}
+
+.nota h1 {
+    font-size: 28px;
+    margin-bottom: 12px;
+    color: var(--branco)
+}
+
+.nota p {
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 29px;
+}
+
+.nota .pontuacao{
+    display: flex;
+    position: relative;
+    gap: 23px
+}
+
+.pontuacao .pontos{
+    display: none;
+}
+
+.pontuacao label{
+    background-color: var(--azul-escuro);
+    color: var(--cinza-medio);
+    position: relative;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 17px;
+    transition: ease-in-out 0.3s;
+}
+
+.pontuacao label:hover{
+    background-color: var(--laranja);
+    color: var(--branco);
+    cursor: pointer;
+}
+
+label.marcado {
+    background-color: var(--cinza-medio);
+    color: var(--branco)
+}
+
+.cartao .agradecimento{
+    display: none;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 45px 35px;
+}
+
+.agradecimento img{
+    height: 107px;
+    margin-bottom: 34px;
+}
+
+.agradecimento h3{
+    background-color: var(--azul-escuro);
+    color: #c9804b;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 34px;
+    border-radius: 20px;
+    padding: 6px 18px;
+}
+
+.agradecimento h2{
+    font-size: 28px;
+    color: var(--branco);
+    margin-bottom: 9px;
+}
+
+.agradecimento p{
+    font-size: 15px;
+    line-height: 23px;
+    color: var(--cinza-claro);
+}
+
+.cartao .selecionado{
+    opacity: 1;
+    display: flex;
+}
+
+#btn-enviar{
+    position: absolute;
+    background-color: var(--laranja);
+    color: var(--branco);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    bottom: -77px;
+    border-radius: 30px;
+    width: 97%;
+    padding: 12px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+#btn-enviar[disabled] {
+    background-color: #c9804b;
+    cursor: default;
+}
+
+#btn-enviar:not([disabled]):hover{
+    background-color: var(--branco);
+    color: var(--laranja);
+}
+
+.attribution{
+    position: absolute;
+    color: var(--branco);
+    bottom: 10px;
+}
+
+.attribution h2{
+    font-family: serif;
+    font-weight: 100;
+    font-size: 15px;
+}

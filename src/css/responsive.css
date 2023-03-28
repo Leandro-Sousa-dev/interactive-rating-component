@@ -1,0 +1,113 @@
+@media(max-width: 576px){
+    .principal .cartao{
+        max-width: 330px;
+        max-height: 360px;
+        border-radius: 15px;
+    }
+
+    .cartao .nota {
+        margin: 25px;
+    }
+
+    .nota .img-container{
+        width: 40px;
+        height: 40px;
+        padding: 13px;
+        margin-bottom: 17px;
+    }
+
+    .img-container img{
+        width: 14px;
+    }
+
+    .nota h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+    
+    .nota p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .nota .pontuacao{
+        gap: 20px
+    }
+
+    .pontuacao label{
+        font-size: 14px;
+        height: 40px;
+    }
+
+    .cartao .agradecimento{
+        margin: 35px 25px;
+    }
+    
+    .agradecimento img{
+        height: 95px;
+        margin-bottom: 25px;
+    }
+    
+    .agradecimento h3{
+        font-size: 14px;
+        margin-bottom: 27px;
+        padding: 7px 14px;
+    }
+    
+    .agradecimento h2{
+        font-size: 24px;
+        margin-bottom: 11px;
+    }
+    
+    .agradecimento p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    #btn-enviar{
+        font-size: 14px;
+        padding: 13px;
+        bottom: -68px;
+        width: 100%;
+        letter-spacing: 2px;
+    }
+
+    .attribution h2{
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 360px){
+    .principal .cartao{
+        max-width: 280px;
+    }
+
+    .cartao .nota {
+        margin: 15px;
+    }
+
+    .nota .img-container{
+        width: 30px;
+        height: 30px;
+        padding: 9px;
+        margin-bottom: 10px;
+    }
+
+    .img-container img{
+        width: 13px;
+    }
+
+    .nota .pontuacao{
+        gap: 10px
+    }
+
+    .pontuacao label{
+        font-size: 11px;
+        height: 40px;
+    }
+
+    .cartao .agradecimento{
+        margin: 25px;
+    }
+}

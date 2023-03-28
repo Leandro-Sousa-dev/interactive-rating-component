@@ -1,0 +1,8 @@
+:root {
+    --laranja: hsl(25, 97%, 53%);
+    --branco: hsl(0, 0%, 100%);
+    --cinza-claro: hsl(217, 12%, 63%);
+    --cinza-medio: hsl(216, 12%, 54%);
+    --azul-escuro: hsl(213, 20%, 18%);
+    --azul-mais-escuro: hsl(216, 12%, 8%);
+}
