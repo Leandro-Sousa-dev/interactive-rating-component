@@ -43,7 +43,7 @@ O usuário deve ser capaz de:
 ### Links
 
 - Link da minha soluçã / Solution URL: [Repositório GitHub](https://github.com/Leandro-Sousa-dev/interactive-rating-component)
-- Link do site hospedado / Live Site URL: [Site hospedado Github pages](https://leandro-sousa-dev.github.io/interactive-rating-component-main/)
+- Link do site hospedado / Live Site URL: [Site hospedado Github pages](https://leandro-sousa-dev.github.io/interactive-rating-component/)
 
 ## Meu processo
 
